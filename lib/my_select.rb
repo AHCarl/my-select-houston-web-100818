@@ -9,6 +9,7 @@ def my_select(collection)
     na << yield(collection[i])
     i += 1
   end
+  end
   na
   end
 end
