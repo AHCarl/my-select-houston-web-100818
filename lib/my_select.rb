@@ -6,5 +6,6 @@ def my_select(collection)
     na << yield(collection[i])
     i += 1
   end
-  na
+  
+  if collection.include?(false)
 end
