@@ -1,3 +1,8 @@
 def my_select(collection)
- # your code here!
+ na = []
+ counter = 0 
+ 
+ while counter > collection.length do 
+   
+ 
 end
