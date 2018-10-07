@@ -8,4 +8,8 @@ def my_select(collection)
   end
   
   if collection.include?(false)
+    nil 
+  else 
+    na
+  end
 end
