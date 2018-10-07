@@ -1,8 +1,9 @@
 def my_select(collection)
   i = 0 
+  na = []
   
   while i < collection.length 
-    return collection[i] if yield(collection[i])
+    na << yield()
     i += 1
   end
   na
