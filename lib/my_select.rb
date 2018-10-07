@@ -6,5 +6,5 @@ def my_select(collection)
     na << (collection[i] if yield(collection[i]))
     i += 1 
   end 
-  na
+  na.compact
 end
